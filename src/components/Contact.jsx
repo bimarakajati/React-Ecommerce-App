@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
     return (
@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="container mb-5">
                 <div className="row">
                     <div className="col-12 text-center py-4 my-4">
-                        <h1>Have Some Question?</h1>
+                        <h1>Kritik dan Saran?</h1>
                         <hr />
                     </div>
                 </div>
@@ -15,26 +15,34 @@ const Contact = () => {
                         <img src="/assets/images/contact.png" alt="Contact Us" height="300px" width="300px" />
                     </div>
                     <div className="col-md-6">
-                        <form >
+                        <form>
                             <div class="mb-3">
-                                <label for="exampleForm" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="exampleForm" placeholder="John Smith"/>
-</div>
+                                <label for="exampleForm" class="form-label">
+                                    Nama Panjang
+                                </label>
+                                <input type="text" class="form-control" id="exampleForm" placeholder="Bima Rakajati" />
+                            </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-</div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-outline-primary">Send Message</button>
+                                <label for="exampleFormControlInput1" class="form-label">
+                                    Email Address
+                                </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">
+                                    Pesan
+                                </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary">
+                                Kirim Pesan
+                            </button>
                         </form>
-                    </div>
                     </div>
                 </div>
             </div>
-            )
-}
+        </div>
+    );
+};
 
-            export default Contact
+export default Contact;
