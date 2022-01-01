@@ -30,8 +30,8 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact">
-                                    Kontak
+                                <NavLink className="nav-link" to="/bukutamu">
+                                    Buku Tamu
                                 </NavLink>
                             </li>
                         </ul>

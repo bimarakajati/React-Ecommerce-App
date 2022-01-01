@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="container mb-5">
                 <div className="row">
                     <div className="col-12 text-center py-4 my-4">
-                        <h1>Kritik dan Saran?</h1>
+                        <h1>Buku Tamu</h1>
                         <hr />
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const Contact = () => {
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">
-                                    Email Address
+                                    Alamat Email
                                 </label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                             </div>

@@ -5,7 +5,7 @@ const Signup = () => {
         <div>
             {/* <!-- Button trigger modal --> */}
             <button type="button" className="btn btn-outline-danger ms-2" data-bs-toggle="modal" data-bs-target="#signupModal">
-                <span className="fa fa-user-plus me-1"></span> Daftar
+                <span className="fa fa-user-plus me-1"></span>Daftar
             </button>
 
             {/* <!-- Modal --> */}

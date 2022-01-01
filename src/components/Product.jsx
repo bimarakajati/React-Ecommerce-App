@@ -5,7 +5,8 @@ import DATA from "../Data";
 const Product = () => {
     const cardItem = (item) => {
         return (
-            <div class="card my-5 py-4" key={item.id} style={{ width: "18rem" }}>
+            <div class="card my-5 py-4" key={item.id} style={{ width: "18rem", border: "2px solid #2d3436", borderRadius: "10px" }}>
+                {/* <div class="card my-3 py-4" key={item.id} style={{ width: "16rem", border: "2px solid #2d3436", borderRadius: "10px" }}> */}
                 <img src={item.img} class="card-img-top" alt={item.title} />
                 <div class="card-body text-center">
                     <h5 class="card-title">{item.title}</h5>
