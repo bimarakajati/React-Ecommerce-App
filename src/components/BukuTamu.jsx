@@ -40,6 +40,35 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+                <br />
+                <div className="row">
+                    <hr />
+                    <table className="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama</th>
+                                <th>Email</th>
+                                <th>Pesan</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>Bima</td>
+                                <td>bima@gmail.com</td>
+                                <td>Bismillah</td>
+                                <td>
+                                    <button className="btn btn-warning" style={{ marginRight: "5px" }}>
+                                        Edit
+                                    </button>
+                                    <button className="btn btn-danger">Hapus</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     );

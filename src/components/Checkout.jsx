@@ -45,23 +45,23 @@ const Checkout = () => {
                         </form>
                     </div>
                     <div className="col-md-7 col-lg-8">
-                        <h4 className="mb-3">Billing address</h4>
+                        <h4 className="mb-3">Alamat tagihan</h4>
                         <form className="needs-validation" novalidate="">
                             <div className="row g-3">
                                 <div className="col-sm-6">
                                     <label htmlFor="firstName" className="form-label">
-                                        First name
+                                        Nama depan
                                     </label>
                                     <input type="text" className="form-control" id="firstName" placeholder="" value="" required="" />
-                                    <div className="invalid-feedback">Valid first name is required.</div>
+                                    <div className="invalid-feedback">Nama depan yang valid wajib diisi.</div>
                                 </div>
 
                                 <div className="col-sm-6">
                                     <label htmlFor="lastName" className="form-label">
-                                        Last name
+                                        Nama belakang
                                     </label>
                                     <input type="text" className="form-control" id="lastName" placeholder="" value="" required="" />
-                                    <div className="invalid-feedback">Valid last name is required.</div>
+                                    <div className="invalid-feedback">Nama belakang yang valid wajib diisi.</div>
                                 </div>
 
                                 <div className="col-12">
@@ -71,13 +71,13 @@ const Checkout = () => {
                                     <div className="input-group has-validation">
                                         <span className="input-group-text">@</span>
                                         <input type="text" className="form-control" id="username" placeholder="Username" required="" />
-                                        <div className="invalid-feedback">Your username is required.</div>
+                                        <div className="invalid-feedback">Username anda diperlukan.</div>
                                     </div>
                                 </div>
 
                                 <div className="col-12">
                                     <label htmlFor="email" className="form-label">
-                                        Email <span className="text-muted">(Optional)</span>
+                                        Email <span className="text-muted">(Opsional)</span>
                                     </label>
                                     <input type="email" className="form-control" id="email" placeholder="you@example.com" />
                                     <div className="invalid-feedback">Please enter a valid email address htmlFor shipping updates.</div>
@@ -85,44 +85,44 @@ const Checkout = () => {
 
                                 <div className="col-12">
                                     <label htmlFor="address" className="form-label">
-                                        Address
+                                        Alamat
                                     </label>
-                                    <input type="text" className="form-control" id="address" placeholder="1234 Main St" required="" />
+                                    <input type="text" className="form-control" id="address" placeholder="Jl. Kenangan" required="" />
                                     <div className="invalid-feedback">Please enter your shipping address.</div>
                                 </div>
 
                                 <div className="col-12">
                                     <label htmlFor="address2" className="form-label">
-                                        Address 2 <span className="text-muted">(Optional)</span>
+                                        Alamat 2 <span className="text-muted">(Opsional)</span>
                                     </label>
-                                    <input type="text" className="form-control" id="address2" placeholder="Apartment or suite" />
+                                    <input type="text" className="form-control" id="address2" placeholder="Apartemen atau kantor" />
                                 </div>
 
                                 <div className="col-md-5">
                                     <label htmlFor="country" className="form-label">
-                                        Country
+                                        Negara
                                     </label>
                                     <select className="form-select" id="country" required="">
-                                        <option value="">Choose...</option>
-                                        <option>United States</option>
+                                        <option value="">Pilih...</option>
+                                        <option>Indonesia</option>
                                     </select>
                                     <div className="invalid-feedback">Please select a valid country.</div>
                                 </div>
 
                                 <div className="col-md-4">
                                     <label htmlFor="state" className="form-label">
-                                        State
+                                        Kota
                                     </label>
                                     <select className="form-select" id="state" required="">
                                         <option value="">Choose...</option>
-                                        <option>California</option>
+                                        <option>Semarang</option>
                                     </select>
                                     <div className="invalid-feedback">Please provide a valid state.</div>
                                 </div>
 
                                 <div className="col-md-3">
                                     <label htmlFor="zip" className="form-label">
-                                        Zip
+                                        Kode Pos
                                     </label>
                                     <input type="text" className="form-control" id="zip" placeholder="" required="" />
                                     <div className="invalid-feedback">Zip code required.</div>
@@ -134,43 +134,43 @@ const Checkout = () => {
                             <div className="form-check">
                                 <input type="checkbox" className="form-check-input" id="same-address" />
                                 <label className="form-check-label" htmlFor="same-address">
-                                    Shipping address is the same as my billing address
+                                    Alamat pengiriman sama dengan alamat penagihan saya
                                 </label>
                             </div>
 
                             <div className="form-check">
                                 <input type="checkbox" className="form-check-input" id="save-info" />
                                 <label className="form-check-label" htmlFor="save-info">
-                                    Save this information htmlFor next time
+                                    Simpan informasi ini untuk lain kali
                                 </label>
                             </div>
 
                             <hr className="my-4" />
 
-                            <h4 className="mb-3">Payment</h4>
+                            <h4 className="mb-3">Pembayaran</h4>
 
                             <div className="my-3">
                                 <div className="form-check">
                                     <input id="credit" name="paymentMethod" type="radio" className="form-check-input" checked="" required="" />
                                     <label className="form-check-label" htmlFor="credit">
-                                        Credit card
+                                        Kartu Kredit
                                     </label>
                                 </div>
                                 <div className="form-check">
                                     <input id="debit" name="paymentMethod" type="radio" className="form-check-input" required="" />
                                     <label className="form-check-label" htmlFor="debit">
-                                        Debit card
+                                        Kartu Debit
                                     </label>
                                 </div>
                                 <div className="form-check">
                                     <input id="paypal" name="paymentMethod" type="radio" className="form-check-input" required="" />
                                     <label className="form-check-label" htmlFor="paypal">
-                                        PayPal
+                                        OVO
                                     </label>
                                 </div>
                             </div>
 
-                            <div className="row gy-3">
+                            {/* <div className="row gy-3">
                                 <div className="col-md-6">
                                     <label htmlFor="cc-name" className="form-label">
                                         Name on card
@@ -203,12 +203,12 @@ const Checkout = () => {
                                     <input type="text" className="form-control" id="cc-cvv" placeholder="" required="" />
                                     <div className="invalid-feedback">Security code required</div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <hr className="my-4" />
 
                             <button className="w-100 btn btn-danger btn-lg" type="submit">
-                                Continue to checkout
+                                Lanjutkan ke pembayaran
                             </button>
                         </form>
                     </div>
