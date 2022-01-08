@@ -8,7 +8,7 @@ const CartBtn = () => {
     const state = useSelector((state) => state.addItem);
     return (
         <>
-            <NavLink to="/cart" className="btn btn-outline-danger ms-2">
+            <NavLink to="/cart" className="btn btn-outline-danger mb-1">
                 <span className="fa fa-shopping-cart me-1"></span>[{state.length}]
             </NavLink>
         </>

@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <>
             {/* <!-- Button trigger modal --> */}
-            <button type="button" className="btn btn-outline-danger ms-auto" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <button type="button" className="btn btn-outline-danger mb-1" data-bs-toggle="modal" data-bs-target="#loginModal" style={{ marginRight: "8px" }}>
                 <span className="fa fa-sign-in me-1"></span>Masuk
             </button>
 

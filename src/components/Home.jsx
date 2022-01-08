@@ -13,28 +13,28 @@ const Home = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/assets/images/home/bg1.jpg" class="d-block w-100" alt="IPhone" height="500px" />
+                        <img src="/assets/images/home/bg1.jpg" class="d-block w-100" alt="Banner" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Paris, France (March, 2016)</h5>
                             <p>More than just the world’s fashion epicenter, the quickly developing Parisian skate scene made the French capital a clear choice.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/images/home/bg2.jpg" class="d-block w-100" alt="IPhone" height="500px" />
+                        <img src="/assets/images/home/bg2.jpg" class="d-block w-100" alt="Banner" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>New York, New York (April, 1994)</h5>
                             <p>In April of 1994, James Jebbia left the Stussy chapter store he helped open on Prince street to launch his own label, Supreme.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/images/home/bg3.jpg" class="d-block w-100" alt="IPhone" height="500px" />
+                        <img src="/assets/images/home/bg3.jpg" class="d-block w-100" alt="Banner" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Daikanyama, Tokyo, Japan (1998)</h5>
                             <p>With a near nationwide culture of collecting, Japanese shoppers often stopped by Supreme in the early days and bought just about everything store employees would let them.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/images/home/bg4.jpg" class="d-block w-100" alt="IPhone" height="500px" />
+                        <img src="/assets/images/home/bg4.jpg" class="d-block w-100" alt="Banner" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Los Angeles, California (2004)</h5>
                             <p>For six years Supreme only operated those four stores—three in Japan, and the NYC flagship. Then, in 2004, after months of rumors, Supreme officially opened in Los Angeles.</p>

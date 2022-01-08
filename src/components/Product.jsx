@@ -21,16 +21,16 @@ const Product = () => {
 
     return (
         <div>
-            <div className="container py-5">
-                <div className="row">
-                    <div className="col-12 text-center">
+            <div className="container">
+                <div className="row p-4">
+                    <div className="text-center">
                         <h1>Produk</h1>
                         <hr />
                     </div>
                 </div>
             </div>
             <div className="container">
-                <div className="row justify-content-around">{DATA.map(cardItem)}</div>
+                <div className="row p-4 text-dark d-flex justify-content-between">{DATA.map(cardItem)}</div>
             </div>
         </div>
     );

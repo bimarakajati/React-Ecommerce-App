@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <div>
             <div className="container mb-5">
-                <div className="row">
-                    <div className="col-12 text-center py-4 my-4">
+                <div className="row p-4">
+                    <div className="text-center">
                         <h1>Buku Tamu</h1>
                         <hr />
                     </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                                 </label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-outline-primary">
+                            <button type="submit" class="btn btn-outline-danger">
                                 Kirim Pesan
                             </button>
                         </form>
@@ -43,31 +43,69 @@ const Contact = () => {
                 <br />
                 <div className="row">
                     <hr />
-                    <table className="table table-bordered table-hover">
-                        <thead>
-                            <tr>
-                                <th>No</th>
-                                <th>Nama</th>
-                                <th>Email</th>
-                                <th>Pesan</th>
-                                <th>Aksi</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1.</td>
-                                <td>Bima</td>
-                                <td>bima@gmail.com</td>
-                                <td>Bismillah</td>
-                                <td>
-                                    <button className="btn btn-warning" style={{ marginRight: "5px" }}>
-                                        Edit
-                                    </button>
-                                    <button className="btn btn-danger">Hapus</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className="table-responsive">
+                        <table className="table table-bordered table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">No</th>
+                                    <th scope="col">Nama</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Pesan</th>
+                                    <th scope="col">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1.</th>
+                                    <td>Bima</td>
+                                    <td>bima@gmail.com</td>
+                                    <td>Bismillah</td>
+                                    <td>
+                                        <button className="btn btn-warning mb-1" style={{ marginRight: "5px" }}>
+                                            Edit
+                                        </button>
+                                        <button className="btn btn-danger mb-1">Hapus</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2.</th>
+                                    <td>Raka</td>
+                                    <td>raka@gmail.com</td>
+                                    <td>UAS</td>
+                                    <td>
+                                        <button className="btn btn-warning mb-1" style={{ marginRight: "5px" }}>
+                                            Edit
+                                        </button>
+                                        <button className="btn btn-danger mb-1">Hapus</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3.</th>
+                                    <td>Jati</td>
+                                    <td>jati@gmail.com</td>
+                                    <td>Lancar</td>
+                                    <td>
+                                        <button className="btn btn-warning mb-1" style={{ marginRight: "5px" }}>
+                                            Edit
+                                        </button>
+                                        <button className="btn btn-danger mb-1">Hapus</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>Supreme</td>
+                                    <td>supreme@gmail.com</td>
+                                    <td>Amin</td>
+                                    <td>
+                                        <button className="btn btn-warning mb-1" style={{ marginRight: "5px" }}>
+                                            Edit
+                                        </button>
+                                        <button className="btn btn-danger mb-1">Hapus</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
